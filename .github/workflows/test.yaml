@@ -10,7 +10,7 @@ jobs:
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ls /
+          #ls /
           # Your ML workflow goes here
           pip install -r requirements.txt
           python test.py
